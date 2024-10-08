@@ -1,0 +1,16 @@
+/* /src/styles/modalTransition.css */
+.modal-transition-enter {
+    opacity: 0;
+  }
+  .modal-transition-enter-active {
+    opacity: 1;
+    transition: opacity 120ms;
+  }
+  .modal-transition-exit {
+    opacity: 1;
+  }
+  .modal-transition-exit-active {
+    opacity: 0;
+    transition: opacity 120ms;
+  }
+  
