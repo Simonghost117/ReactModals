@@ -7,7 +7,7 @@ const Modal = () => {
   const [show, setShow] = useState(false);
 
   return (
-    <div className="w-full text-white text-center ">
+    <div className="w-full text-white text-center  ">
       <h1 className="mt-8 text-3xl">React Modal</h1>
       <h3 className="mb-8 text-2xl">with useState</h3>
 

@@ -8,7 +8,7 @@ const ModalInternalState = ({ children, activator }) => {
     <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-30 z-50">
       <div className="relative z-50 w-full max-w-md mx-auto bg-white rounded-lg">
         <button
-          className="absolute top-[-1.5rem] right-0 p-1 bg-transparent text-white cursor-pointer"
+          className="absolute top-1 right-2 p-1 text-gray-600 cursor-pointer"
           type="button"
           onClick={() => setShow(false)}
         >
